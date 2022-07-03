@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-poppins
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	transition: all 400ms ease;
+}
+@media (min-width: 1024px) {
+	.main_content {
+		margin-left: 300px;
+	}
+
+	.mcontainer {
+		max-width: 1000px;
+		padding: 30px 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.inputText {
+    @apply bg-[#fff] border border-solid border-[#dddfe2] px-5 h-[46px] min-h-[46px] text-[#808080] rounded-md max-w-full w-full block mt-[5px] outline-none focus:border-[#1877f2];
+}
+.item-nav{
+    @apply pr-[25px] inline-block h-full cursor-pointer
+}
