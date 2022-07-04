@@ -1,7 +1,6 @@
 import HeaderMainContent from '@components/header-main-content'
 import CourseItem from './CourseItem'
 import CourseItemFlex from './CourseItemFlex'
-import './style.scss' 
 
 const CourseList = () => {
   return (

@@ -10,6 +10,7 @@ import { Header, SiderBar } from '@components'
 import PostList from '@components/PostList/PostList'
 import CourseList from '@components/CourseLists'
 import SwiperTest from '@components/SwiperTest'
+import GameList from '@components/GameList'
 
 // function App() {
 //   const { isLoading, loadProfileAction } = useAuth()
@@ -32,17 +33,19 @@ const App = () => {
     // <div className='ml-[300px] pt-[65px]'>
     //   <ProFileUser/>
     // </div>
-    // <Main>
-    //   <Header />
-    //   <SiderBar />
-    //   <div className='pt-[65px] a_lg:ml-[300px]' >
-    //     {/* <ProFileUser /> */}
-    //     <CourseList />
-    //   </div>
-    // </Main>
-      <div>
-        <SwiperTest />
+
+    <Main>
+      <Header />
+      <SiderBar />
+      <div className='pt-[65px] a_lg:ml-[300px]' >
+        {/* <ProFileUser />
+        <CourseList /> */}
+        <GameList />
       </div>
+    </Main>
+      // <div>
+      //   <SwiperTest />
+      // </div>
 
   )
 }

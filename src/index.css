@@ -28,6 +28,17 @@ body{
 	}
 }
 
+.course_item_flex{
+    border-bottom: 1px solid #f0f0f0;
+    &:last-child{
+        border: none ;
+    }
+}
+
+.GameItemFlex {
+	@apply border-[#f0f0f0] border-[1px] border-solid last:border-none
+}
+
 .inputText {
     @apply bg-[#fff] border border-solid border-[#dddfe2] px-5 h-[46px] min-h-[46px] text-[#808080] rounded-md max-w-full w-full block mt-[5px] outline-none focus:border-[#1877f2];
 }

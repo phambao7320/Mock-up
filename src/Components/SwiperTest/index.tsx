@@ -11,16 +11,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { A11y, Navigation,Scrollbar,Virtual } from "swiper";
 import 'swiper/scss';
 
-SwiperCore.use([Navigation,Scrollbar,A11y])
+SwiperCore.use([Navigation,Scrollbar,A11y,Virtual])
 
 const SwiperTest = () => {
   return (
     <div>
         <Swiper
-            // virtual
+            virtual
             slidesPerView={4}
             spaceBetween={0}
-            navigation
+            navigation={true}
             onSlideChange={() => console.log('slide change')}
             >
             <SwiperSlide><CourseItem/></SwiperSlide>

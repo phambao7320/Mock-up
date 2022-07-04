@@ -2,7 +2,7 @@ import React from 'react'
 import NavButton from './Nav-button'
 import NavList from './Nav-list'
 
-const NavProfile = () => {
+const NavProfile = ({values}:any) => {
   return (
     <div>
         <hr className='w-0 lg:w-full mt-[20px]'/>
