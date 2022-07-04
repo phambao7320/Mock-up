@@ -11,6 +11,7 @@ import PostList from '@components/PostList/PostList'
 import CourseList from '@components/CourseLists'
 import SwiperTest from '@components/SwiperTest'
 import GameList from '@components/GameList'
+import ProductList from '@components/ProductList'
 
 // function App() {
 //   const { isLoading, loadProfileAction } = useAuth()
@@ -40,7 +41,8 @@ const App = () => {
       <div className='pt-[65px] a_lg:ml-[300px]' >
         {/* <ProFileUser />
         <CourseList /> */}
-        <GameList />
+        {/* <GameList /> */}
+        <ProductList />
       </div>
     </Main>
       // <div>
