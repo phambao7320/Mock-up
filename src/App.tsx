@@ -13,6 +13,7 @@ import SwiperTest from '@components/SwiperTest'
 import GameList from '@components/GameList'
 import ProductList from '@components/ProductList'
 import JobList from '@components/JobList'
+import GroupList from '@components/GroupList'
 
 // function App() {
 //   const { isLoading, loadProfileAction } = useAuth()
@@ -44,7 +45,8 @@ const App = () => {
         <CourseList /> */}
         {/* <GameList /> */}
         {/* <ProductList /> */}
-        <JobList />
+        {/* <JobList /> */}
+        <GroupList />
       </div>
     </Main>
       // <div>

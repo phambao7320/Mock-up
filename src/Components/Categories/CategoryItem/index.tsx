@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Categories = () => {
+const CategoryItem = () => {
   return (
     <div className="w-full border-1 rounded-lg p-2">
         <a href="#" className="w-full h-40 overflow-hidden relative block rounded-md">
@@ -11,4 +9,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
+export default CategoryItem
