@@ -14,10 +14,10 @@ const ProductItem = () => {
             </button>
         </div>
         <div className="px-3 relative border-1 border-solid border-[#333">
-            <div className="absolute bg-blue-100 font-medium px-2 py-1 top-[-20px] right-3 rounded-full text text-blue-500 text-sm">$24.99</div>
+            <div className="absolute bg-blue-100 font-medium px-2 py-1 top-[-20px] right-3 rounded-full text text-blue-500 text-[12px] md:text-sm ">$24.99</div>
             <a href="block">
-                <p className="my-2 text-yellow-400 text-[12px] line-clamp-1">HERBEL</p>
-                <p className="pb-2 text-[#666] font-medium text-sm line-clamp-1">Brown headphones</p>
+                <p className="my-2 text-yellow-400 text-[10px] md:text-[12px] line-clamp-1">HERBEL</p>
+                <p className="text-[#666] font-medium text-[12px] md:text-sm line-clamp-1">Brown headphones</p>
             </a>
         </div>
     </div>
