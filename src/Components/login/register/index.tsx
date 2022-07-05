@@ -57,7 +57,6 @@ const Register = () => {
                                 <div className='flex flex-col lg:flex-row lg:gap-3 mt-[5px]'>
                                     <div className='basis-1/2'>
                                         <p className=' mb-[5px]'>Gender</p>
-                                        {/* <input type="text" placeholder='Your Name' className='basis-1/2 inputText mt5'/> */}
                                         <FormSelect name='gender' options={[{label:'Nam',value:'Nam'},{label:'Nữ',value:'Nữ'}]} />
                                     </div>
                                     <div className='basis-1/2'>
@@ -67,7 +66,7 @@ const Register = () => {
                                 </div>
                                 <p className='pt-[15px] text-xs'>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
                                 <div className='flex mt-[15px]'>
-                                    <button type='submit' className='mx-auto w-2/3 text-white text-center bg-blue-600 hover:opacity-90 hover:text-white rounded-md p-3 font-semibold' >Get Started</button>
+                                    <button type='submit' className='mx-auto w-2/3 text-white text-center bg-blue-600 hover:opacity-90 hover:text-white rounded-md p-3 font-semibold'>Get Started</button>
                                 </div>
                             </form>
                         </FormProvider>

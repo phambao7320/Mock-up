@@ -12,6 +12,7 @@ import CourseList from '@components/CourseLists'
 import SwiperTest from '@components/SwiperTest'
 import GameList from '@components/GameList'
 import ProductList from '@components/ProductList'
+import JobList from '@components/JobList'
 
 // function App() {
 //   const { isLoading, loadProfileAction } = useAuth()
@@ -38,11 +39,12 @@ const App = () => {
     <Main>
       <Header />
       <SiderBar />
-      <div className='pt-[65px] a_lg:ml-[300px]' >
+      <div className='pt-[65px] a_lg:ml-[300px] bg-[#f9fafb]' >
         {/* <ProFileUser />
         <CourseList /> */}
         {/* <GameList /> */}
-        <ProductList />
+        {/* <ProductList /> */}
+        <JobList />
       </div>
     </Main>
       // <div>

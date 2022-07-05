@@ -23,7 +23,6 @@ const ProductList = () => {
                     </ul>
                 </div>
             </div>
-
             <div className='mx-[5px]'>
                 <div className='flex item-center justify-between mx-2'>
                     <div className=''>
@@ -45,7 +44,6 @@ const ProductList = () => {
                     </ul>
                 </div>
             </div>
-
             <div className='mx-[5px]'>
                 <div className='flex item-center justify-between ml-2 my-5'>
                     <h4 className='texs-semibold text-2xl my-0'>New Collection</h4>
@@ -61,7 +59,6 @@ const ProductList = () => {
                     </ul>
                 </div>
             </div>
-
             <div className='flex flex-col py-[20px] px-[5px] justify-center' >
                 <HeaderMainContent label='Brand Collection' items={[]} />
                 <div className='mt-2 overflow-hidden w-full'>
